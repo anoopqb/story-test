@@ -1,0 +1,28 @@
+
+$alternateColor: #292828;
+:root{
+    --alternateColor: #292828;
+}
+
+
+.card{
+    border: 1px solid #D0D5DD;
+    
+}
+
+
+
+.notification-bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    background-color: #fff;
+    border-bottom: 1px solid #D0D5DD;
+}
+
+.bg-dark{
+    background-color: var(--alternateColor);
+    color: #fff;
+}
